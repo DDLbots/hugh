@@ -1,6 +1,6 @@
 package client
 
-import "github.com/digital-dream-labs/hugh/config"
+import "github.com/DDLbots/hugh/config"
 
 // viperize augments options based on viper config
 //

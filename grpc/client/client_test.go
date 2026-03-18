@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/digital-dream-labs/hugh/grpc/server"
-	"github.com/digital-dream-labs/hugh/internal/testdata/grpcecho"
-	"github.com/digital-dream-labs/hugh/internal/testdata/tls"
+	"github.com/DDLbots/hugh/grpc/server"
+	"github.com/DDLbots/hugh/internal/testdata/grpcecho"
+	"github.com/DDLbots/hugh/internal/testdata/tls"
 )
 
 func TestNewClient(t *testing.T) {

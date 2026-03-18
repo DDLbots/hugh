@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	log "github.com/digital-dream-labs/hugh/log"
+	log "github.com/DDLbots/hugh/log"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/digital-dream-labs/hugh/log"
+	"github.com/DDLbots/hugh/log"
 )
 
 func (s *Server) changeState(st State) {

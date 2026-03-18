@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 
-	"github.com/digital-dream-labs/hugh/log"
+	"github.com/DDLbots/hugh/log"
 	"google.golang.org/grpc"
 )
 

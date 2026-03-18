@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/digital-dream-labs/hugh/log"
+	"github.com/DDLbots/hugh/log"
 	middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_runtime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"google.golang.org/grpc"

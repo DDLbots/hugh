@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/digital-dream-labs/hugh/log"
+	"github.com/DDLbots/hugh/log"
 )
 
 // ContainerConfig defines the parameters for launching a Docker
