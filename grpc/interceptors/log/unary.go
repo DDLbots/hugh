@@ -29,7 +29,7 @@ func UnaryServerInterceptor(opts ...InterceptOption) grpc.UnaryServerInterceptor
 			responseTag: respCopy,
 			errorTag:    err,
 			durationTag: time.Since(start).Seconds(),
-		}).Info("request info")
+		}).Debug("request info")
 
 		return resp, err
 	}

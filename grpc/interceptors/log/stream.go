@@ -52,7 +52,7 @@ func StreamServerInterceptor(opts ...InterceptOption) grpc.StreamServerIntercept
 			receivedTag: lss.rcvd,
 			errorTag:    err,
 			durationTag: time.Since(start).Seconds(),
-		}).Info("stream info")
+		}).Debug("stream info")
 
 		return err
 	}
